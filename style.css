@@ -75,6 +75,9 @@ body {
   justify-content: space-between;
   -webkit-animation: slide-in ease-out 0.9s;
   animation: slide-in ease-out 0.9s;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
 }
 .wrapper .desktop-image {
   display: none;
